@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ej10</title>
+</head>
+<body>
+    <a name="arriba"><h1>enlaces</h1></a>
+    <a href="#abajo">ir abajo</a><br>
+    <a href="ej.html">ir a ejemplo</a><br><br>
+    <a href="https://wwww.google.com.co">ir a google</a><br>
+
+    hola mundo
+    <h1>mi primera pagina</h1>
+    <!--aqui va un comentario que no es interpretado por el navegador-->
+    <p>hola mundo, esta es una pagina con titular, que tiene tambien un parrafo 
+    y unos cuantos saltos de linea</p>
+    Uno<br>
+    Dos<br>
+    Tres<br>
+    <h1>listas</h1>
+    una lista ordenada
+    <ol>
+        <li>uno</li>
+        <li>dos</li>
+        <li>tres</li>
+    </ol>
+    <br><br>
+    una lista sin ordenar
+    <ul>
+       <li>uno</li> 
+       <li>dos</li>
+       <li>tres</li>
+    </ul>
+    <br><br>
+    una lista de glosario
+    <dl>
+        <dt>termino 1</dt>
+        <dd>definicion 1</dd>
+        <dt>termino 2</dt>
+        <dd>definicion 2</dd>
+    </dl>
+    <br><br>
+    listas anidadas
+    <ul>
+        <li>uno
+            <ul>
+                <li>uno</li>
+                <li>dos</li>
+                <li>tres</li>  
+            </ul>
+        </li>
+        <li>dos</li>
+        <li>tres</li>
+    </ul>
+    <h1>estilos de caracter</h1>
+    un ejemplo de texto de <em>realzado</em><br>
+    un ejemplo de texto de <strong>realzado</strong><br>
+    un ejemplo de texto de <code>realzado</code><br>
+    un ejemplo de texto de <samp>realzado</samp><br>
+    un ejemplo de texto de <kbd>realzado</kbd><br>
+    un ejemplo de texto de <var>realzado</var><br>
+    un ejemplo de texto de <dfn>realzado</dfn><br>
+    un ejemplo de texto de <cite>realzado</cite><br>
+    <br>
+    un ejemplo de texto de <b>realzado</b><br>
+    un ejemplo de texto de <i>realzado</i><br>
+    un ejemplo de texto de <u>realzado</u><br>
+    un ejemplo de texto de <t>realzado</t><br>
+    <h1>saltos y lineas</h1>
+    <hr>
+    <hr width="80%">
+    <hr width="60%">
+    <hr width="40%">
+    <hr width="20%">
+    ____
+    <br><br><br>
+    ____
+    <br><br><br>
+    <h1>tablas basicas</h1>
+    <table border="1px">
+        <tr>
+            <th>cabecera 1</th>
+            <th>cabecera 2</th>
+            <th>cabecera 3</th<>
+        </tr>
+        <tr>
+            <td>dato 1</td>
+            <td>dato 2</td>
+            <td>dato 3</td>
+        </tr>
+        <tr>
+            <td>dato 4</td>
+            <td>dato 5</td>
+            <td>dato 6</td>
+        </tr>
+    </table>
+    <h1>tablas basicas</h1>
+    <table border="1px">
+        <caption>tablita tab</caption>
+        <tr>
+            <th>cabecera 1</th>
+            <th>cabecera 2</th>
+            <th>cabecera 3</th<>
+        </tr>
+        <tr>
+            <td colspan="2">dato 1</td>
+            <td>dato 3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">dato 4</td>
+            <td align="center" valign="middle">dato 5</td>
+            <td>dato 6<br><br></td>
+        </tr>
+        <tr>
+            <td align="center" valign="middle">dato 5</td>
+            <td>dato 6<br><br></td>
+        </tr>
+    </table>
+    <h1>tablas avanzadas</h1>
+    <table width="50%" border="1" cellspacing="3" cellpadding="2">
+        <tr>
+            <td colspan="2" align="right">Dato 1</td>
+            <td>un texto cualquiera</td>
+            <td rowspan="2">Dato 3</td>
+        </tr>
+        <tr>
+            <td>dato 4</td>
+            <td>dato 4</td>
+            <td align="center">Dato 5</td>
+        </tr>
+    </table>
+    <h1>formularios</h1>
+    <form action="prueba.php" method="post">
+        <input type="text" name="nombre"><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <h1>formularios</h1>
+    <form action="prueba.php" method="post">
+        texto:<input type="text" name="nombre"><br>
+        password:<input type="password" name="contra"><br>
+        sexo:<input type="radio" name="boton1" value="1">hombre<input type="radio" name="boton2" value="2">mujer
+        <br>
+        vehiculo:<input type="checkbox" name="moto" value="moto">moto<input type="checkbox" name="coche" value="coche">coche
+
+        <br><br>
+        <input type="submit"><input type="reset">
+    </form>
+    <h1>formularios</h1>
+    <form action="prueba.php" method="post">
+        <select name="colores" multiple>
+            <option value="r">rojo</option>
+            <option value="g">verde</option>
+            <option value="b">azul</option>
+        </select>
+        <br><br>
+        <select name="colores" size="1">
+            <option value="r">rojo</option>
+            <option value="g">verde</option>
+            <option value="b">azul</option>
+        </select>
+        <br><br>
+        <input type="submit"><input type="reset">
+    </form>
+    <h1>formularios</h1>
+    <form action="prueba.php" method="post">
+        <textarea cols="20px" rows="10px" name="texto"></textarea>
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <br><br>
+    <h1>imagenes</h1>
+    <img src="img/mio.jpg" width="140" border="0" alt="wfs" align="right" />
+    <img src="img/mio.jpg" width="140" border="3" alt="wfs" align="left" />
+    un texto cualquiera
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <a name="abajo"><br></a>
+    <a href="#arriba">ir arriba</a>
+</body>
+</html>
